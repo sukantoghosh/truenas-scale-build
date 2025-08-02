@@ -341,7 +341,7 @@ sources:
     - "apt install -y wget xz-utils"
     - "./pull.sh"
 - name: kernel
-  repo: https://github.com/truenas/linux
+  repo: https://github.com/sukantoghosh/truenas-linux
   branch: release/25.04.2
   batch_priority: 0
   supports_ccache: true
